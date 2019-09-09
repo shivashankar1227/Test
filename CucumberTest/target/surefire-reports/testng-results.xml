@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14466" started-at="2019-09-05T11:40:11Z" finished-at="2019-09-05T11:40:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14466" started-at="2019-09-05T11:40:11Z" finished-at="2019-09-05T11:40:25Z">
+      <class name="org.cucumber.tests.LoginTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:org.cucumber.tests.LoginTest@7906578e]" name="setUP" is-config="true" duration-ms="4644" started-at="2019-09-05T17:10:11Z" finished-at="2019-09-05T17:10:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:org.cucumber.tests.LoginTest@7906578e]" name="login" duration-ms="9687" started-at="2019-09-05T17:10:16Z" description="login" data-provider="Features" finished-at="2019-09-05T17:10:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[feature name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.cucumber.tests.LoginTest@7906578e]" name="tearDown" is-config="true" duration-ms="11" started-at="2019-09-05T17:10:25Z" finished-at="2019-09-05T17:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.cucumber.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
